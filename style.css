@@ -1,0 +1,59 @@
+body{
+    background-size: cover;
+    font-size: 24px;
+    font-family: monospace;
+}
+
+#objnum, #status, button{
+    border-radius: 10px;
+    width: 400px;
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+#objnum{
+    background-color: lightcoral;
+}
+
+#objnum:hover{
+    background-color: rgb(202, 108, 108);
+}
+
+#status{
+    background-color: lightblue;
+}
+
+#status:hover{
+    background-color: rgb(131, 163, 173);
+}
+
+button{
+    background-color: lightgreen;
+}
+
+button:hover{
+    background-color: rgb(112, 184, 112);
+}
+
+#top{
+    background-color: lightseagreen;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+#top:hover{
+    background-color: rgb(27, 141, 135);
+}
+
+canvas{
+    border-radius: 15px;
+    border-style: solid;
+}
+#bottom{
+    margin-top: 400px;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 18px !important;
+    color: white;
+}
+
+/* Comment */
